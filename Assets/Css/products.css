@@ -185,7 +185,9 @@ div:hover{
 button:hover{
     transform: scale(1.03);
 }
-div img{
-    width: 240px;
-    height: 300px;
+.pallete1 img{
+    width: 230px;
+    height: 220px;
+    border: 5px solid black;
+    margin-top: 20px;
 }
