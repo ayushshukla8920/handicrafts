@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Montserrat&display=swap');
+
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+nav ul a:hover{
+    text-decoration: underline;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav{
+    padding: 20px;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    height: 40px;
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    float:right;
+    padding: 15px;
+}
+nav ul li{
+    display: inline;
+    padding: 8px;
+    color: rgb(255, 200, 0);
+}
+.logo-head h1{
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.logo-head{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 200, 0);
+}
+#button1{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 70px;
+    width: 180px;
+    margin-right: 10px;
+    background-color: rgb(255, 200, 0);
+    color: black;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button2{
+    margin-top: 50px;
+    height: 70px;
+    width: 180px;
+    margin-right: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button3{
+    height: 40px;
+    width: 120px;
+    margin-right: 10px;
+    background-color: rgb(255, 200, 0);
+    color: black;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button4{
+    height: 40px;
+    width: 120px;
+    margin-right: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:active{
+    transform: translateY(4px);
+}
+.heading h1{
+    font-family: Montserrat;
+    font-size: 50pt;
+    margin: 60px;
+    color: rgb(127, 127, 127);
+    /* text-decoration: underline; */
+    border-bottom: 1px solid rgb(73, 73, 73);
+    padding-bottom: 50px;
+}
+section h2{
+    margin: 50px;
+    padding-left: 20px;
+    font-size: 48pt;
+    font-family: Londrina Outline;
+    color: rgb(255, 200, 0);
+}
+.pallete1{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    padding-bottom: 70px;
+}
+.pallete1 *{
+    background-color: rgb(70, 70, 70);
+}
+.item1{
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    border-radius: 30px;
+    display: inline-block;
+    width: 18%;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    transition: .3s all ease;
+}
+.item2{
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    border-radius: 30px;
+    display: inline-block;
+    width: 18%;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    transition: .3s all ease;
+}
+.item3{
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    border-radius: 30px;
+    display: inline-block;
+    width: 18%;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    transition: .3s all ease;
+}
+.item4{
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    border-radius: 30px;
+    display: inline-block;
+    width: 18%;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    transition: .3s all ease;
+}
+#buttonm{
+    height: 70px;
+    width: 70px;
+    border: 1px solid white;
+    border-radius: 500px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 10px;
+    transition: .3s all ease;
+}
+div{
+    transition: .3s all ease;
+}
+section div:hover{
+    transform: scale(1.03);
+}
+button:hover{
+    transform: scale(1.03);
+}
+.pallete1 img{
+    width: 230px;
+    height: 220px;
+    border: 5px solid black;
+    margin-top: 20px;
+}
+.pallete1 h4{
+    font-size: 18pt;
+    color: rgb(253, 253, 253);
+    margin-top: 10px;
+}
+#buy{
+    width: 150px;
+    margin-top: 20px;
+    background-color: rgb(255, 200, 0);
+    color: black;
+    height: 40px;
+    font-size: 15pt;
+    font-weight: bold;
+    border: 5px soild black;
+    border-radius: 10px;
+}
+.pallete1 div{
+    cursor: grabbing;
+}
+button{
+    cursor: pointer;
+}
