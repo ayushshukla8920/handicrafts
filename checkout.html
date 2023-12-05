@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Assets/Css/checkout.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="logo-head">
+            <img src="Assets/Images/logo copy.png" alt="404 not found">
+            <h1>Handicrafts Hub</h1>
+        </div>
+        <div>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="products.html"><li>Collections</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                <a href="Login Page/signup.html"><button id="button3">SIGN UP</button></a>
+                <a href="Login Page/signin.html"><button id="button4">LOG IN</button></a>
+            </ul>
+        </div>
+    </nav>
+    <div class="heading">
+        <h1>Checkout</h1>
+    </div>
+    <div id="productInfoContainer">
+        <h1 id="productName"></h1>
+        <h2 id="productPrice"></h2>
+        <img id="productDescriptionImage" src="" alt="Product Image">
+        <button class="pay">Pay Now 💵</button>
+    </div>
+    <script>
+        // Function to parse the query string and retrieve parameters
+        function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, '\\$&');
+        const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+        const results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+      
+        // Retrieve product information from the query string
+        const productName = getParameterByName('name');
+        const productPrice = getParameterByName('price');
+        const productDescription = getParameterByName('description');
+      
+        // Display product information in the HTML page
+        document.getElementById('productName').textContent = productName;
+        document.getElementById('productPrice').textContent = 'Price: ' + productPrice;
+        document.getElementById('productDescriptionImage').src = productDescription;
+      </script>      
+</body>
+</html>
