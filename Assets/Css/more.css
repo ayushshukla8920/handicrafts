@@ -126,10 +126,10 @@ section h2{
     padding-bottom: 70px;
 }
 .pallete1 *{
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(34, 34, 34);
 }
 .item1{
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(34, 34, 34);
     border: 1px solid white;
     border-radius: 30px;
     display: inline-block;
@@ -140,7 +140,7 @@ section h2{
     transition: .3s all ease;
 }
 .item2{
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(34, 34, 34);
     border: 1px solid white;
     border-radius: 30px;
     display: inline-block;
@@ -151,7 +151,7 @@ section h2{
     transition: .3s all ease;
 }
 .item3{
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(34, 34, 34);
     border: 1px solid white;
     border-radius: 30px;
     display: inline-block;
@@ -162,7 +162,7 @@ section h2{
     transition: .3s all ease;
 }
 .item4{
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(34, 34, 34);
     border: 1px solid white;
     border-radius: 30px;
     display: inline-block;
