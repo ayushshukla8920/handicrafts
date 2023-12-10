@@ -8,41 +8,107 @@
     padding: 0;
     font-family: montserrat;
 }
-nav ul a:hover{
-    text-decoration: underline;
-}
-nav ul a{
-    text-decoration: none;
-}
 nav{
     padding: 20px;
     border-bottom: 1px solid rgb(73, 73, 73);
+    width: 100%;
     height: 40px;
+    top: 0;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: rgb(34, 34, 34)
+}
+.container{
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+}
+svg{
+    width: 30px;
+    background-color: rgb(34, 34, 34);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.icon-cart{
+    position: relative;
+}
+.icon-cart span{
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 50%;
+    right: -20px;
 }
 nav ul{
     list-style: none;
     float:right;
     padding: 15px;
+    background-color: rgb(34, 34, 34);
+}
+nav ul a{
+    text-decoration: none;
 }
 nav ul li{
     display: inline;
-    padding: 8px;
+    padding: 18px;
     color: rgb(255, 200, 0);
+    background-color: rgb(34, 34, 34);
+    border-radius: 100px;
+    border: 0px solid black;
+}
+nav ul li:hover{
+    background-color: rgba(255, 233, 152, 0.7);
+    color: black;
+}
+nav #img1{
+    height: 45px;
+    width: 45px;
+    border: 3px solid rgb(255, 200, 0);
+    border-radius: 300px;
+    background-color: rgb(34, 34, 34);
+}
+#navfx{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 10pt;
+    background-color: rgb(34, 34, 34);
+}
+#navfx h2{
+    background-color: rgb(34, 34, 34);
 }
 .logo-head h1{
     display: inline-block;
     padding-left: 10px;
     font-size: 25px;
+    background-color: rgb(34, 34, 34);
+}
+.logo-head img{
+    background-color: rgb(34, 34, 34);
 }
 .logo-head{
     display: flex;
     align-items: center;
+    background-color: rgb(34, 34, 34);
 }
 .navigation{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
     color: rgb(255, 200, 0);
 }
 #button1{
@@ -184,9 +250,6 @@ section h2{
 }
 div{
     transition: .3s all ease;
-}
-section div:hover{
-    transform: scale(1.03);
 }
 button:hover{
     transform: scale(1.03);
